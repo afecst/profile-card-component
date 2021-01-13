@@ -27,7 +27,7 @@ img {
 
 .card {
   max-width: 350px;
-  margin: 200px auto 0 auto;
+  margin: 150px auto 0 auto;
   border-radius: 20px;
   background: #fff;
 }
@@ -104,4 +104,16 @@ img {
   font-size: 0.75em;
   color: hsl(227, 10%, 46%);
   margin-top: 5px;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Kumbh Sans", sans-serif;
+ color: #fff;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(229, 23%, 23%);
 }
