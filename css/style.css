@@ -1,0 +1,107 @@
+/* Reset */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: hsl(185, 75%, 39%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Card */
+
+.card {
+  max-width: 350px;
+  margin: 200px auto 0 auto;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.bg-card img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.photo img {
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  top: -50px;
+}
+
+.info {
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+
+.info h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125em;
+  margin-bottom: 10px;
+  color: hsl(229, 23%, 23%);
+}
+
+.info h1 .age {
+  color: hsl(227, 10%, 46%);
+  font-weight: normal;
+}
+
+.info p {
+  color: hsl(227, 10%, 46%);
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.data {
+  width: 100%;
+}
+
+.data::before,
+.data::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.data::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: hsl(0, 0%, 90%);
+}
+
+.data-item {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.data-item span {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.data-item p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.75em;
+  color: hsl(227, 10%, 46%);
+  margin-top: 5px;
+}
